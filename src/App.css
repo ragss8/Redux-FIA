@@ -1,0 +1,16 @@
+.image-gallery-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 20px;
+}
+
+.image-gallery-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-gallery-item img {
+  max-width: 100%;
+  max-height: 100%;
+}
